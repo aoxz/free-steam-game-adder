@@ -385,7 +385,7 @@ var easysfp = function(t) {
     };
 
     function qt() {
-        Ut.Dismiss(), Ut = ShowBlockingWaitDialog("[".concat((Lt() / Bt() * 100).toFixed(2), "%] Please wait…"), "To you account has been added <b>".concat(Lt(), "</b>/").concat(Bt(), " licenses.\n    Time remaining: About ").concat(Wt(), " minutes."))
+        Ut.Dismiss(), Ut = ShowBlockingWaitDialog("[".concat((Lt() / Bt() * 100).toFixed(2), "%] Please wait…"), "<b>".concat(Lt(), "</b>/").concat(Bt(), " licenses added.\n    Time remaining: About ").concat(Wt(), " minutes."))
     }
     var Ht, Kt, Vt = "https://store.steampowered.com/account/licenses/",
         Xt = Vt.replace(/[|\\{}()[\]^$+*?.]/g, "\\$&"),
